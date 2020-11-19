@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/potvrdi_porudzbinu"
+        android:icon="@drawable/ic_done_black_24dp"
+        android:title="Potvrdi"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/nazad_na_home_sa_korpe"
+        android:icon="@drawable/ic_nazad"
+        android:title="Nazad"
+        app:showAsAction="always"
+        />
+</menu>

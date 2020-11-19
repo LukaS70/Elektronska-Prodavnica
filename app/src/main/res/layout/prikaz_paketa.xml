@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrikazPaketa">
+
+    <ImageView
+        android:id="@+id/detalji_slika_paket"
+        android:layout_width="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="260dp"
+        android:scaleType="centerCrop"
+        />
+
+
+    <TextView
+        android:id="@+id/detalji_naziv_paket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detalji_slika_paket"
+        android:text="Naziv paketa "
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/detalji_broj_minuta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detalji_naziv_paket"
+        android:text="Broj minuta "
+        android:textColor="@android:color/black"
+
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/detalji_broj_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detalji_broj_minuta"
+        android:text="Broj sms "
+        android:textColor="@android:color/black"
+
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/detalji_broj_mb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detalji_broj_sms"
+        android:text="Broj mb "
+        android:textColor="@android:color/black"
+
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/detalji_cena_paket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detalji_broj_mb"
+        android:text="Cena: "
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

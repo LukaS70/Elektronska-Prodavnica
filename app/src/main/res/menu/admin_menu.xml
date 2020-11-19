@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ubaci_paket"
+        android:icon="@drawable/ic_paketi"
+        android:title="Ubaci paket"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/ubaci_telefon"
+        android:icon="@drawable/ic_telefon"
+        android:title="Ubaci telefon"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/nazad_na_home_sa_admin"
+        android:icon="@drawable/ic_nazad"
+        android:title="Nazad"
+        app:showAsAction="always"
+        />
+</menu>

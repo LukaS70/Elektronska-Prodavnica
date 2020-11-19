@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <item android:title="RAM"/>-->
+<!--    <group android:checkableBehavior="single">-->
+<!--        <item  android:id="@+id/manje_od_4gb_ram" android:title="≤4GB"/>-->
+<!--        <item  android:id="@+id/izmedju_4gb_i_6gb_ram" android:title="4GB-6GB"/>-->
+<!--        <item  android:id="@+id/vise_od_6gb_ram" android:title="≥6GB"/>-->
+<!--    </group>-->
+<!--        <item android:title="Proizvodjac"/>-->
+
+
+    <item android:id="@+id/menu_openothermenu"
+        android:title="RAM"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item  android:id="@+id/sve_ram" android:title="Sve" android:checked="true"/>
+                <item  android:id="@+id/manje_od_4gb_ram" android:title="≤4GB"/>
+                <item  android:id="@+id/a4gb_ram" android:title="4GB"/>
+                <item  android:id="@+id/a6gb_ram" android:title="6GB"/>
+                <item  android:id="@+id/vise_od_6gb_ram" android:title="≥6GB"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_openmenu"
+        android:title="PROIZVODJACI"
+        app:showAsAction="always">
+        <menu>
+    <group android:checkableBehavior="single">
+        <item  android:id="@+id/svi_proizvodjaci" android:title="Svi" android:checked="true"/>
+        <item  android:id="@+id/samsung" android:title="Samsung"/>
+        <item  android:id="@+id/google" android:title="Google"/>
+        <item  android:id="@+id/xiaomi" android:title="Xiaomi"/>
+        <item  android:id="@+id/huawei" android:title="Huawei"/>
+    </group>
+</menu>
+    </item>
+    <item
+        android:id="@+id/nazad_dugme"
+        android:icon="@drawable/ic_nazad"
+        android:title="Nazad"
+        app:showAsAction="always"
+        />
+</menu>

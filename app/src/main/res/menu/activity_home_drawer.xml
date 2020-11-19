@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_paketi"
+            android:icon="@drawable/ic_paketi"
+            android:title="Paketi"
+            android:iconTint="@android:color/white"/>
+        <item
+            android:id="@+id/nav_pretrazi"
+            android:icon="@drawable/ic_search"
+            android:title="Pretrazi"
+            android:iconTint="@android:color/white"/>
+        <item
+            android:id="@+id/nav_lokacija"
+            android:icon="@drawable/ic_location"
+            android:title="Lokacija"
+            android:iconTint="@android:color/white"/>
+        <item
+            android:id="@+id/nav_korpa"
+            android:icon="@drawable/ic_cart"
+            android:title="Korpa"
+            android:iconTint="@android:color/white"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Logout"
+            android:iconTint="@android:color/white"/>
+
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/ic_logout"
+            android:title="Admin"
+            android:iconTint="@android:color/white"
+            android:visible="false"/>
+    </group>
+
+</menu>

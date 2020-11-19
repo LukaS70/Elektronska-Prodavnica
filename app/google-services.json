@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1012243252159",
+    "firebase_url": "https://elektronska-prodavnica.firebaseio.com",
+    "project_id": "elektronska-prodavnica",
+    "storage_bucket": "elektronska-prodavnica.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012243252159:android:426469e67066cd3d42170a",
+        "android_client_info": {
+          "package_name": "com.example.elektronska_prodavnica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012243252159-aosi0n26m9rpnfak7ed98hdot8g6dhji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elektronska_prodavnica",
+            "certificate_hash": "e1e60fd06fd73b438aabec4c9f6ba0800a51a2c3"
+          }
+        },
+        {
+          "client_id": "1012243252159-t68b3ask5vaq81ptnlbut6hbsoa7sorm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012243252159-t68b3ask5vaq81ptnlbut6hbsoa7sorm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
